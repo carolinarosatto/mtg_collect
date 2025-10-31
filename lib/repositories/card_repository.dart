@@ -1,8 +1,8 @@
 import 'package:mtg_collect/models/card_model.dart';
-import 'package:mtg_collect/services/card_service.dart';
+import 'package:mtg_collect/core/services/api_service.dart';
 
 class CardRepository {
-  final CardService api;
+  final ApiService api;
 
   CardRepository(this.api);
 
